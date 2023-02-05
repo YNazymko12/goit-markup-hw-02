@@ -58,6 +58,7 @@ ul {
 }
 .adress-link {
     color: var(--color-secondary-text);
+    font-style: normal;
 }
 .adress-link:hover,
 .adress-link:focus {
