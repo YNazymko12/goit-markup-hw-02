@@ -19,8 +19,8 @@ body {
     background-color: var(--color-white);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 
 
 }
@@ -34,7 +34,7 @@ ul {
 /* Header */
 .logo-first {
     color: var(--color-primary-text);
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -47,6 +47,7 @@ ul {
 .header-link {
     color: var(--color-primary-text);
     font-weight: 500;
+   
 }
 .header-link:hover,
 .header-link:focus {
@@ -59,6 +60,7 @@ ul {
 .adress-link {
     color: var(--color-secondary-text);
     font-style: normal;
+    
 }
 .adress-link:hover,
 .adress-link:focus {
@@ -74,6 +76,7 @@ ul {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    
 }
 .hero-button {
     background-color: var(--color-primary-brand);
@@ -85,6 +88,8 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -97,14 +102,15 @@ ul {
     font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
+    
 }
 .features-text {
     color: var(--color-secondary-text);
+    
 }
 .heading {
     font-size: 36px;
     line-height: 1.11;
-    font-weight: 700;
     text-align: center;
 }
 /* Team */
@@ -128,7 +134,7 @@ ul {
 }
 .logo-first-light {
     color: var(--color-light);
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -143,19 +149,20 @@ ul {
     color: var(--color-primary-brand);
     background-color: var(--color-light);
     border: 1px solid var(--color-accent); 
-    box-shadow: 0px 4px 4px var(--color-black);
     border-radius: 4px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
+    letter-spacing: 0.04em;
+    cursor: pointer;
     
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
     color: var(--color-white);
     background-color: var(--color-pressed-state);
-    cursor: pointer;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-caption {
