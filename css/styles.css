@@ -1,0 +1,214 @@
+:root {
+    --white-color: #FFF;
+    --accent-color: #E7E9FC;
+    --light-color: #F4F4FD;
+    --modal-bg-color: #FCFCFC;
+    --dark-color: #2E2F42;
+    --text-color:#434455;
+    --subtle-text: #8E8F99;
+    --brand-color: #4D5AE5;
+    --pressed-state-color: #404BBF;
+    --success-color:#31D0AA;
+
+
+}
+
+/* Common styles */
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+body {
+    font-family: "Roboto", sens-serif;
+    color: var(--text-color);
+}
+
+/* Page header */
+.page-header {
+    background-color: var(--white-color);
+    border-bottom: 1px solid var(--light-color);
+}
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.167;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    
+}
+.accent-logo {
+    color: var(--brand-color);
+}
+.logo.dark {
+    color: var(--dark-color);
+}
+
+.menu-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--dark-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--pressed-state-color);
+}
+
+.address-link {
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: var(--text-color);
+}
+.address-link:hover,
+.address-link:focus {
+    color: var(--pressed-state-color);
+}
+
+/* Hero section */
+.hero-section {
+    background-color: var(--dark-color);
+}
+
+.hero-title {
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    color: var(--white-color);
+}
+.hero-btn {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    color: var(--white-color);
+    border-radius: 4px;
+    background: var(--brand-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    color: var(--pressed-state-color);
+}
+
+/* Advantages section */
+.advantages-section {
+    background-color: var(--white-color);
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.advantages-caption {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    color: var(--dark-color);
+}
+.advantages-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+/* Works section */
+.works-section {
+    background-color: var(--white-color);
+}
+.heading {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    color: var(--dark-color);
+}
+
+/* Team section */
+.team-section {
+    background-color: var(--light-color);
+}
+.team-item {
+    background-color: var(--white-color);
+}
+.team-caption {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    color: var(--dark-color);
+}
+.team-text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+/* Footer */
+.page-footer {
+    background-color: var(--dark-color);
+}
+.logo.light {
+    color: var(--light-color);
+}
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--light-color);
+}
+
+/* Portfolio */
+.portfolio-section {
+    background-color: var(--white-color);
+}
+
+.filter-btn {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    color: var(--brand-color);
+    border-radius: 4px;
+    border: 1px solid var(--accent-color);
+    background: var(--light-color);
+}
+.filter-btn:hover,
+.filter-btn:focus {
+    color: var(--white-color);
+    background-color: var(--pressed-state-color);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+        
+}
+.portfolio-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    color: var(--dark-color);
+}
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--text-color)
+}
