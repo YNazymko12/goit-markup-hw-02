@@ -91,7 +91,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.64px;
     color: var(--white-color);
-    /* border-radius: 4px; */
     background-color: var(--brand-color);
 }
 .hero-btn:hover,
@@ -101,18 +100,7 @@ body {
 
 /* Advantages section */
 
-/* .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-} */
+
 .advantages-caption {
     font-size: 20px;
     font-weight: 500;
@@ -175,7 +163,6 @@ body {
 
 /* Portfolio */
 
-
 .filter-btn {
     font-family: inherit;
     font-size: 16px;
@@ -183,8 +170,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.64px;
     color: var(--brand-color);
-    /* border-radius: 4px; */
-    /* border: 1px solid var(--accent-color); */
     background: var(--light-color);
 }
 .filter-btn:hover,
