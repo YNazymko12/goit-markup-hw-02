@@ -14,46 +14,42 @@
 }
 
 /* Common styles */
-ul {
-    list-style-type: none;
+.list {
+    list-style: none;
 }
-a {
+.link {
     text-decoration: none;
 }
 button {
     cursor: pointer;
 }
 body {
-    font-family: "Roboto", sens-serif;
+    font-family: "Roboto", sans-serif;
+    background-color: var(--white-color);
     color: var(--text-color);
 }
 
 /* Page header */
-.page-header {
-    background-color: var(--white-color);
-    border-bottom: 1px solid var(--light-color);
-}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.167;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    
-}
-.accent-logo {
     color: var(--brand-color);
 }
-.logo.dark {
+.dark-logo {
     color: var(--dark-color);
 }
+
 
 .menu-link {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     color: var(--dark-color);
 }
 .menu-link:hover,
@@ -61,9 +57,11 @@ body {
     color: var(--pressed-state-color);
 }
 
+.page-address{
+    font-style: normal;
+}
 .address-link {
     font-size: 16px;
-    font-style: normal;
     line-height: 24px;
     letter-spacing: 0.32px;
     color: var(--text-color);
@@ -75,11 +73,11 @@ body {
 
 /* Hero section */
 .hero-section {
+    font-family: inherit;
     background-color: var(--dark-color);
 }
 
 .hero-title {
-    text-align: center;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 1.12px;
@@ -93,7 +91,6 @@ body {
     color: var(--white-color);
     border-radius: 4px;
     background: var(--brand-color);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -101,9 +98,7 @@ body {
 }
 
 /* Advantages section */
-.advantages-section {
-    background-color: var(--white-color);
-}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -130,10 +125,9 @@ body {
 }
 
 /* Works section */
-.works-section {
-    background-color: var(--white-color);
-}
+
 .heading {
+    text-align: center;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.72px;
@@ -145,11 +139,8 @@ body {
 .team-section {
     background-color: var(--light-color);
 }
-.team-item {
-    background-color: var(--white-color);
-}
+
 .team-caption {
-    text-align: center;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -157,7 +148,6 @@ body {
     color: var(--dark-color);
 }
 .team-text {
-    text-align: center;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
@@ -167,7 +157,7 @@ body {
 .page-footer {
     background-color: var(--dark-color);
 }
-.logo.light {
+.light-logo {
     color: var(--light-color);
 }
 .footer-text {
@@ -178,9 +168,7 @@ body {
 }
 
 /* Portfolio */
-.portfolio-section {
-    background-color: var(--white-color);
-}
+
 
 .filter-btn {
     font-size: 16px;
@@ -196,7 +184,6 @@ body {
 .filter-btn:focus {
     color: var(--white-color);
     background-color: var(--pressed-state-color);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
         
 }
 .portfolio-title {
